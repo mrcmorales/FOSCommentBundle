@@ -20,7 +20,7 @@
 
         <field name="createdAt" field-name="createdAt" type="date" />
 
-        <field name="value" fieldame="value" type="int" />
+        <field name="value" field-name="value" type="int" />
 
     </mapped-superclass>
 
