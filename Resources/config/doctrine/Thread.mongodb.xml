@@ -16,15 +16,16 @@
 
     <mapped-superclass name="FOS\CommentBundle\Document\Thread" collection="fos_comment_thread" customId="true">
 
-        <field name="id" type="string" id="true" strategy="NONE" />
+
+        <id strategy="NONE" type="string" />
 
         <field name="permalink" type="string" />
 
-        <field name="isCommentable" fieldName="isCommentable" type="boolean" />
+        <field name="isCommentable" field-name="isCommentable" type="boolean" />
 
-        <field name="numComments" fieldName="numComments" type="int" />
+        <field name="numComments" field-name="numComments" type="int" />
 
-        <field name="lastCommentAt" fieldName="lastCommentAt" type="date" />
+        <field name="lastCommentAt" field-name="lastCommentAt" type="date" />
 
     </mapped-superclass>
 
