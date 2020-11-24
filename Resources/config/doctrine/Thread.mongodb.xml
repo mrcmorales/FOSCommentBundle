@@ -14,7 +14,7 @@
                         xsi:schemaLocation="http://doctrine-project.org/schemas/odm/doctrine-mongo-mapping
                         http://doctrine-project.org/schemas/odm/doctrine-mongo-mapping.xsd">
 
-    <mapped-superclass name="FOS\CommentBundle\Document\Thread" collection="fos_comment_thread" customId="true">
+    <mapped-superclass name="FOS\CommentBundle\Document\Thread" collection="fos_comment_thread">
 
 
         <id strategy="NONE" type="string" />
